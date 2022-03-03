@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Arial;
+    background-image: url(/misc/background-noise.png);
+    background-color: #fafafa;
+    font-size: 110%;
+    padding: 1rem;
+  }
+  
+  html, body {
+    margin: 0;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    html {
+      font-size: 90%;
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  h1, h2, h3, h4, h5 {
+    margin: .25rem 0 .25rem 0;
+  }
+  
+  p {
+    margin-top: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+  }
+  
+  a:hover {
+    color: #f00;
+    border-bottom: 1px solid;
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: .25rem;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-bottom: 50px;
+  }
+  
+  .updated-timestamp {
+    font-style: italic;
+    color: #808080;
+    font-size: 16px;
+    text-align: right;
+  }
